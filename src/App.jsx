@@ -1,4 +1,4 @@
-/*
+
 import { useState, useEffect } from "react";
 import {
   Button,
@@ -16,7 +16,7 @@ import outputs from "../amplify_outputs.json";
 /**
  * @type {import('aws-amplify/data').Client<import('../amplify/data/resource').Schema>}
  */
-/*
+
 Amplify.configure(outputs);
 const client = generateClient({
   authMode: "userPool",
@@ -76,4 +76,4 @@ export default function App() {
       <Button onClick={signOut}>Sign Out</Button>
     </Flex>
   );
-}*/
+}
